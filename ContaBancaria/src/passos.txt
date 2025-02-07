@@ -6,4 +6,4 @@ depois de criar a conta mandar a seguinte mensagem "Olá [Nome Cliente], obrigad
 
 e se ja tiver uma conta, transmitir uma mensagem parecida com essa
 
-fasfdas
+usar a biblioteca java.util.Random para criar o numero da conta e o numero da agencia
