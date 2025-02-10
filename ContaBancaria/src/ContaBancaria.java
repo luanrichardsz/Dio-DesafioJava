@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ContaBancaria {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        Usuario conta = new Usuario();
+        Banco banco = new Banco();
 
         System.out.println(" Bem Vindo ao Banco Proative");
 
@@ -15,10 +15,10 @@ public class ContaBancaria {
         while (true) {
             int entradaUsuario = ler.nextInt();
             if (entradaUsuario == 1) {
-                conta.entrar();
+                banco.entrar();
                 break;
             } else if (entradaUsuario == 2) {
-                conta.cadastrar();
+                banco.cadastrar();
                 break;
             } else {
                 System.out.println("Entrada Invalida. Tente Novamente");
